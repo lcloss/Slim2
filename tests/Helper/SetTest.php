@@ -171,14 +171,14 @@ class SetTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(2, count($this->bag));
     }
 
-    public function testGetIterator()
+    public function testgetIterator(): \Traversable
     {
         $data = array(
             'abc' => '123',
             'foo' => 'bar'
         );
         $this->property->setValue($this->bag, $data);
-        $this->assertInstanceOf('\ArrayIterator', $this->bag->getIterator());
+        $this->assertInstanceOf('\ArrayIterator', $this->bag->getIterator(): \Traversable);
     }
 
     public function testPropertyOverloadGet()
