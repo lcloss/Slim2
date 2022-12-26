@@ -483,7 +483,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
      *
      * Countable: Count
      */
-    public function count()
+    public function count(): int
     {
         return count($this->headers);
     }
@@ -501,7 +501,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
      */
     public function getIterator(): \Traversable
     {
-        return $this->headers->getIterator(): \Traversable
+        return $this->headers->getIterator();
     }
 
     /**
