@@ -501,7 +501,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
      */
     public function getIterator(): \Traversable
     {
-        return $this->headers->getIterator(): \Traversable;
+        return $this->headers->getIterator(): \Traversable
     }
 
     /**
