@@ -1,15 +1,20 @@
 {
-    "name": "slim/slim",
+    "name": "lcloss/slim2",
     "type": "library",
-    "description": "Slim Framework, a PHP micro framework",
+    "description": "Forked from Slim Framework, a PHP micro framework (http://github.com/codeguy/Slim)",
     "keywords": ["microframework","rest","router"],
-    "homepage": "http://github.com/codeguy/Slim",
+    "homepage": "http://github.com/lcloss/Slim2",
     "license": "MIT",
     "authors": [
         {
             "name": "Josh Lockhart",
             "email": "info@joshlockhart.com",
             "homepage": "http://www.joshlockhart.com/"
+        },
+        {
+            "name": "Luciano Closs",
+            "email": "lcloss@lcloss.dev",
+            "homepage": "https://www.lucianocloss.com/"
         }
     ],
     "require": {
