@@ -199,7 +199,7 @@ class Set implements \ArrayAccess, \Countable, \IteratorAggregate
      * Countable
      */
 
-    public function count()
+    public function count(): int
     {
         return count($this->data);
     }
